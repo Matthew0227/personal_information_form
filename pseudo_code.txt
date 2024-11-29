@@ -4,16 +4,10 @@ Personal info fillup form
 3. Run personal info data
 4. Run personal info reader
 5. Retry
-
-Personal info data
-1. Empty Dictionary [name : {age,gender,adress whatever}]
-2. Retrieve variables from personal info form
-3. append each variables in this format: [name : {age,gender,adress whatever}]
-4. Call personal info writer
-
-Personal info writer
-1. Import variables from personal info data
-2. Writes the variables in the format in [name.txt] file
+6. Empty Dictionary [name : {age,gender,adress whatever}]
+7. append each variables in this format: [name : {age,gender,adress whatever}]
+8. Call personal info writer
+9. Writes the variables in the format in [name.txt] file
  
-Personal info reader
+Personal info displayer
 1. Reads [name.txt] file
