@@ -30,6 +30,8 @@ while True:
             if 0 < age < 121:
                 age = str(age)
                 break
+            else:
+                print("Please enter your age (1-120 only).")
         else:
             print("Please enter your age (1-120 only).")
 
@@ -37,7 +39,7 @@ while True:
         birthdate = input("birthdate (mm/dd/yyyy): ")
         if any(char.isalpha() for char in birthdate):
             print("Please enter the correct format (no letters).")
-        
+
         else:
             if len(birthdate) == 10:
                 break
@@ -103,8 +105,6 @@ while True:
         file_txt.write("Gmail: ")
         file_txt.write(gmail)
         file_txt.write("\n")
-
-
         
     try:
         retry = input("add another person?(y/n): ")

@@ -6,7 +6,6 @@ def letters_only_input(prompt):
         else:
             return name_
 
-
 while True:
     print("-------------------")
     print("Data Information")
@@ -33,9 +32,8 @@ while True:
     except FileNotFoundError:
         print("The person does not exist in the data, would you like to try again?: ")
 
-
     try:
-        retry = input("add another person?(y/n): ")
+        retry = input("Try again?(y/n): ")
         if retry == "y" or "n":
             print()
     except:

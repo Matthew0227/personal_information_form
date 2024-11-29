@@ -1,0 +1,15 @@
+-------------------
+Personal Data Form
+-------------------
+First name: Karen
+Middle name: J.
+Last name: Whaley
+-------------------
+Age: 75
+Birthdate: 10/07/1949
+Nationality: American
+Occupation: Critical care nurse
+Address: 4823 Marigold Lane
+Telephone number: 09484875123
+Phone number: 09783493712
+Gmail: KarenJWhaley@dayrep.com
